@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.velocimetro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 30em;
+    height: 30em;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.velocidadActual {
+    font-size: 8em;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 4em;
+    margin: 0.5em 0;
+}
+
+.acelerar {
+    background-color: rgb(94, 239, 94);
+}
+
+.reiniciar {
+    background-color: rgb(255, 48, 48);
+}
+
+.frenar {
+    background-color: rgb(74, 208, 252);
+}
+
+button {
+    width: 9em;
+    height: 3em;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.container-button {
+    margin-top: 2rem;
+}

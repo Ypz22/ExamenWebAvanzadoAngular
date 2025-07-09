@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>VELOCIMETRO</h1>
+    <div class="velocimetro" [style.backgroundColor]="colorFondo()">
+
+        <h2 class="velocidadActual">{{velocidad()}}</h2>
+        <h2>Km/H</h2>
+    </div>
+    <div class="container-button">
+        <button class="acelerar" (click)="acelerar()">Acelerar</button>
+        <button class="frenar" (click)="frenar()">Frenar</button>
+        <button class="reiniciar" (click)="resetear()">Reiniciar</button>
+    </div>
+</div>
