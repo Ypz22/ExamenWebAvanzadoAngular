@@ -8,7 +8,7 @@ RUN npm run build -- --configuration production
 
 # Etapa 2: Servidor Nginx
 FROM nginx:alpine
-COPY --from=builder /app/dist/saludo/browser /usr/share/nginx/html
+COPY --from=builder /app/dist/yepez_jefferson_ex2/browser /usr/share/nginx/html
 
 #Usa este archivo para definir cómo responder a las peticiones que lleguen al servidor.
 COPY nginx.conf /etc/nginx/conf.d/default.conf
