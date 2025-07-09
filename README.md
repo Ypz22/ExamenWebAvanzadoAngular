@@ -1,6 +1,7 @@
 # YepezJeffersonEx2 - Comandos
 
 docker build -t  examen .
+
 docker run -dit -p 8082:80 --name c-examen --rm examen
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
