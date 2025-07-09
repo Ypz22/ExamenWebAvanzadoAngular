@@ -1,5 +1,7 @@
 docker build -t  examen .
 docker run -dit -p 8082:80 --name c-examen --rm examen
+docker image tag examen ypz22/yepez-jefferson-ex2
+git push ypz22/yepez-jefferson-ex2
 
 server {
   listen 80;

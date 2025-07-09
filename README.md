@@ -4,6 +4,10 @@ docker build -t  examen .
 
 docker run -dit -p 8082:80 --name c-examen --rm examen
 
+docker image tag examen ypz22/yepez-jefferson-ex2
+
+git push ypz22/yepez-jefferson-ex2
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
 
 ## Development server
